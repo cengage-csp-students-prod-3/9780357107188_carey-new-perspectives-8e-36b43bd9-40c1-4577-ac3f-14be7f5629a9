@@ -10,4 +10,4 @@ Error : AssertionError - 'rgba(0, 0, 0, 1)' != 'rgba(255, 255, 255, 1)'
 - rgba(0, 0, 0, 1)
 + rgba(255, 255, 255, 1)
  : Color is not set as expected. Expected rgba(255, 255, 255, 1), but found rgba(0, 0, 0, 1)
-Timestamp: 2026-01-05 14:27:47.461705
+Timestamp: 2026-01-05 14:30:03.266983
