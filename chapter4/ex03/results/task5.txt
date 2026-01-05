@@ -10,39 +10,39 @@ Error : AssertionError - 'none' != 'sepia(1)'
 - none
 + sepia(1)
  : Sepia filter is not set as expected. Expected sepia(1), but found none
-Timestamp: 2026-01-05 14:37:50.287507
+Timestamp: 2026-01-05 20:41:54.885072
 
 Status: FAILED!
 Check: 3
 Test: Create the style rule for `img1` image, translate the image -150 pixels along the z-axis.
 Reason: Unable to find 'img#img1 { transform: translateZ(-150px);}' in the program.
 Error : str - AssertionError
-Timestamp: 2026-01-05 14:37:50.287993
+Timestamp: 2026-01-05 20:41:54.885508
 
 Status: FAILED!
 Check: 4
 Test: Create the style rule for `img2` image, rotate the image 90 degrees around the x-axis and translate the image -150 pixels along the z-axis.
 Reason: Unable to find 'img#img2 { transform: rotateX(90deg) translateZ(-150px);}' in the program.
 Error : str - AssertionError
-Timestamp: 2026-01-05 14:37:50.288295
+Timestamp: 2026-01-05 20:41:54.885783
 
 Status: FAILED!
 Check: 5
 Test: Create the style rule for `img3` image, rotate the image -90 degrees around the y-axis and translate the image 150 pixels along the z-axis.
 Reason: Unable to find 'img#img3 { transform: rotateY(-90deg) translateZ(150px);}' in the program.
 Error : str - AssertionError
-Timestamp: 2026-01-05 14:37:50.288555
+Timestamp: 2026-01-05 20:41:54.886008
 
 Status: FAILED!
 Check: 6
 Test: Create the style rule for `img4` image, rotate the image 90 degrees around the y-axis and translate the image 150 pixels along the z-axis.
 Reason: Unable to find 'img#img4 { transform: rotateY(90deg) translateZ(150px);}' in the program.
 Error : str - AssertionError
-Timestamp: 2026-01-05 14:37:50.288790
+Timestamp: 2026-01-05 20:41:54.886306
 
 Status: FAILED!
 Check: 7
 Test: Create the style rule for `img5` image, rotate the image -90 degrees around the x-axis and translate the image -150 pixels along the z-axis.
 Reason: Unable to find 'img#img5 { transform: rotateX(-90deg) translateZ(-150px);}' in the program.
 Error : str - AssertionError
-Timestamp: 2026-01-05 14:37:50.289022
+Timestamp: 2026-01-05 20:41:54.886660
